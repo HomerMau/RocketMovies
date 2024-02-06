@@ -25,18 +25,7 @@ export const Profile = styled.div`
   align-items: center;
 
   gap: 0.9rem;
-
   
-
-  > img {
-    width: 6.4rem;
-    height: 6.4rem;
-    border-radius: 50%;
-    border: 0.1rem;
-    border-style: solid;
-    border-bottom-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
-  }
-
   > div {
     display: flex;
     flex-direction: column;
@@ -47,4 +36,15 @@ export const Profile = styled.div`
     }
 
   }
+  
+
+  > img {
+    width: 6.4rem;
+    height: 6.4rem;
+    border-radius: 50%;
+    border: 0.1rem;
+    border-style: solid;
+    border-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
+  }
+
 `
