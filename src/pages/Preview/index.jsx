@@ -5,7 +5,7 @@ export function Preview() {
 return(
   <Container>
     <Header />
-    <h1>Vai tomar no copo</h1>
+    <h1>PLACEHOLDER</h1>
   </Container>
 )
 

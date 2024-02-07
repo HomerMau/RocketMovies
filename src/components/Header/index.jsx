@@ -12,7 +12,7 @@ export function Header() {
 
         <div>
           <strong>Tiago Lucas</strong>
-          <span>sair</span>
+          <a href="#"><span>sair</span></a>
         </div>
 
         <img src="https://github.com/HomerMau.png" alt="Foto do usuário" />
