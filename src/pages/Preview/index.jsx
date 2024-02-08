@@ -29,7 +29,7 @@ export function Preview() {
 
             <Avatar />
             
-            <h3 name>Por Tiago Lucas</h3>
+            <h3>Por Tiago Lucas</h3>
               <FiClock />
             </div>
 
