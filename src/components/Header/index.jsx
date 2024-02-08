@@ -1,7 +1,8 @@
 import { Container, Brand, Profile } from "./styles"
-import { Input } from "../Input/input"
+import { Input } from "../Input"
+import { Avatar } from "../Avatar"
 
-export function Header() {
+export function Header({ name }) {
   return (
     <Container>
       <Brand>RocketMovies</Brand>
@@ -11,11 +12,11 @@ export function Header() {
       <Profile to="/profile">
 
         <div>
-          <strong>Tiago Lucas</strong>
+          <strong>{ name }</strong>
           <a href="#"><span>sair</span></a>
         </div>
 
-        <img src="https://github.com/HomerMau.png" alt="Foto do usuário" />
+        <Avatar />
 
       </Profile>
     </Container>
