@@ -9,6 +9,16 @@ export default createGlobalStyle`
 
   :root{
       font-size: clamp(40%, 1% + 2vw, 62.5%);
+      
+
+    ::-webkit-scrollbar {
+      width: 0.8rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: ${({ theme }) => theme.COLORS.PINK};
+      border-radius: 0.8rem;
+    }
   }
 
   body {

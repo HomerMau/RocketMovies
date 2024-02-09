@@ -5,17 +5,16 @@ export const Container = styled.div`
   height: 100%;
 
   display: grid;
-  grid-template-rows: 8.5rem auto;
+  grid-template-rows: 15.5rem auto;
   grid-template-areas:
     "header"
     "content";
 
   > main {
     grid-area: content;
-    overflow-y: auto;
-    padding: 5.4rem 0;
+    overflow-y: auto ;
   }
-`
+  `
 
 
 export const Content = styled.div`
@@ -94,5 +93,9 @@ export const Informations = styled.div`
       font-weight: 400;
       font-size: 1.6rem;
     }
+  }
+
+  .tags {
+    margin-bottom: 4.0rem;
   }
 `
