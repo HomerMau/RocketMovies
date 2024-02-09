@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Container, Content, Informations } from "./styles"
 
 import { FiArrowLeft, FiStar, FiClock } from "react-icons/fi"
@@ -14,8 +15,10 @@ export function Preview() {
       <main>
         <Content>
           <Informations>
+            <div className="return">
             <FiArrowLeft />
             <span>Voltar</span>
+            </div>
 
             <div className="movieName">
               <h1>Interstellar</h1>
@@ -27,13 +30,14 @@ export function Preview() {
             </div>
 
             <div className="author">
+              
               <Avatar />
 
               <h3>Por Tiago Lucas</h3>
               <FiClock />
-            </div>
 
             <span>07/02/24 às 21:55</span>
+            </div>
 
             <div className="tags">
               <Tag title="Ficção Científica" />
