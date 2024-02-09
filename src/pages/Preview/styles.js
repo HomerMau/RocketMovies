@@ -5,28 +5,23 @@ export const Container = styled.div`
   height: 100%;
 
   display: grid;
-  grid-template-rows: 15.5rem auto;
+  grid-template-rows: 09.5rem auto;
   grid-template-areas:
     "header"
     "content";
 
   > main {
     grid-area: content;
-    overflow-y: auto ;
+
+    max-width: 113.7rem;
+    margin: 6rem auto;
+    
+    overflow-y: scroll;
+    
   }
   `
 
-
-export const Content = styled.div`
-
-  max-width: 113.7rem;
-
-  margin: 0 auto;
-`;
-
 export const Informations = styled.div`
-  display: flex;
-  flex-direction: column;
 
   > .return {
     display: flex;
@@ -94,8 +89,8 @@ export const Informations = styled.div`
       font-size: 1.6rem;
     }
   }
-
   .tags {
     margin-bottom: 4.0rem;
   }
+
 `

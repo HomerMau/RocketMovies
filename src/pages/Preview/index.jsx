@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Container, Content, Informations } from "./styles"
+import { Container, Informations } from "./styles"
 
 import { FiArrowLeft, FiStar, FiClock } from "react-icons/fi"
 
@@ -13,7 +13,6 @@ export function Preview() {
       <Header name="Tiago Lucas" />
 
       <main>
-        <Content>
           <Informations>
             <div className="return">
             <FiArrowLeft />
@@ -81,7 +80,6 @@ export function Preview() {
             a partida. Ao voltarem para a Endurance, Cooper e Amelia descobrem
             que 23 anos se passaram.
           </p>
-        </Content>
       </main>
     </Container>
   )

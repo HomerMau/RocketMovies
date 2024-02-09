@@ -11,6 +11,7 @@ export const Container = styled.header`
   border-bottom-width: 0.1rem;
   border-bottom-style: solid;
   border-bottom-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
+
 `
 
 export const Brand = styled.div`
