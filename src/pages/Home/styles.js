@@ -7,7 +7,6 @@ export const Container = styled.div`
     max-width: 113.7rem;
     margin: 3.7rem auto;
 
-    overflow-y: auto;
   }
 `
 
