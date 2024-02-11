@@ -14,9 +14,9 @@ export const Container = styled.div`
     grid-area: content;
 
     max-width: 113.7rem;
-    margin: 6rem auto;
+    margin: 5rem auto;
     
-    overflow-y: scroll;
+    overflow-y: auto;
     
   }
   `
