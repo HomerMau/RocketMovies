@@ -1,5 +1,8 @@
 import { FiArrowLeft } from "react-icons/fi"
 
+import { Link } from "react-router-dom"
+
+
 import { Header } from "../../components/Header"
 import { Input } from "../../components/Input"
 import { Textarea } from "../../components/Textarea"
@@ -16,10 +19,10 @@ export function New() {
       <main>
         <Form>
           <header>
-            <a href="/">
+            <Link to="/">
               <FiArrowLeft />
               <span>Voltar</span>
-            </a>
+            </Link>
             <h1>Novo filme</h1>
           </header>
 

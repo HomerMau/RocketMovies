@@ -8,12 +8,15 @@ import { FiPlus, FiStar } from "react-icons/fi"
 export function Home() {
   return (
     <Container>
-      <Header name="Tiago Lucas" />
+      <Header />
 
       <main>
         <MyMovies>
           <h2>Meus filmes</h2>
-          <Button icon={FiPlus} title="Adicionar filme"></Button>
+          <div className="button">
+
+          <Button icon={FiPlus} title="Adicionar filme" to="/new"></Button>
+          </div>
         </MyMovies>
 
         <Note

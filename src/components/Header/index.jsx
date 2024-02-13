@@ -2,7 +2,7 @@ import { Container, Brand, Profile } from "./styles"
 import { Input } from "../Input"
 import { Avatar } from "../Avatar"
 
-export function Header({ name }) {
+export function Header() {
   return (
     <Container>
       <Brand>RocketMovies</Brand>
@@ -12,7 +12,7 @@ export function Header({ name }) {
       <Profile to="/profile">
 
         <div>
-          <strong>{ name }</strong>
+          <strong>Tiago Lucas</strong>
           <a href="#"><span>sair</span></a>
         </div>
 

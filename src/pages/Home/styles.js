@@ -1,4 +1,6 @@
 import { styled } from "styled-components"
+import { Link } from "react-router-dom";
+
 
 export const Container = styled.div`
   > main {
@@ -13,12 +15,16 @@ export const Container = styled.div`
 
 
 export const MyMovies = styled.div`
+  max-width: 108.5rem;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-  > button {
+  > .button {
     width: 20.7rem;
+    margin: 0;
+    padding: 0;
   }
 
   > h2 {

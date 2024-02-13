@@ -23,24 +23,25 @@ export const Container = styled.div`
 `
 
 export const Form = styled.form`
-
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  max-width: 165%;
+  max-width: 100%;
   margin: 3rem auto 0;
 
   > div:nth-child(4) {
     margin-top: 2.4rem;
   }
 
-
-  button {
+  .button {
     margin-top: 2.4rem;
     width: 45%;
-  }
 
+    * {
+      margin: 0;
+    }
+  }
 `
 
 export const Avatar = styled.div`
@@ -71,9 +72,9 @@ export const Avatar = styled.div`
     right: 0.7rem;
 
     cursor: pointer;
-    
+
     background-color: ${({ theme }) => theme.COLORS.PINK};
-    
+
     input {
       display: none;
     }

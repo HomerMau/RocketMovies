@@ -1,4 +1,6 @@
 import { styled } from 'styled-components'
+import { Link } from "react-router-dom"
+
 
 export const Container = styled.header`
   height: 10.5rem;
@@ -21,7 +23,7 @@ export const Brand = styled.div`
   color: ${({ theme }) => theme.COLORS.PINK};
 `;
 
-export const Profile = styled.div`
+export const Profile = styled(Link)`
   display: flex;
   align-items: center;
 
@@ -31,6 +33,10 @@ export const Profile = styled.div`
     display: flex;
     flex-direction: column;
     align-items: end;
+
+    strong {
+      color: ${({ theme }) => theme.COLORS.WHITE};
+    }
 
     span {
       color: ${({ theme }) => theme.COLORS.GRAY_100};
