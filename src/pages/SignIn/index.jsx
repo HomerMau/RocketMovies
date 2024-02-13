@@ -16,9 +16,9 @@ export function SignIn() {
 
         <div className="informations">
 
-        <Input placeholder="E-mail" type="text" icon={FiMail} />
+        <Input placeholder="E-mail" type="text" icon={FiMail} autoComplete="email" />
 
-        <Input placeholder="Senha" type="password" icon={FiLock} />
+        <Input placeholder="Senha" type="password" icon={FiLock} autoComplete="password" />
 
         </div>
         <Button title="Entrar" />

@@ -9,18 +9,18 @@ export const Container = styled.div`
 `
 
 export const Form = styled.div`
-  padding: 0 136px;
+  padding: 0 13.6rem;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: start;
 
   text-align: center;
 
   > h1 {
-    font-size: 48px;
-    color: ${({ theme }) => theme.COLORS.ORANGE};
+    font-size: 4.8rem;
+    color: ${({ theme }) => theme.COLORS.PINK};
   }
 
   > h2 {
@@ -28,14 +28,33 @@ export const Form = styled.div`
     margin: 48px 0px;
   }
 
+  .informations {
+    width: 220%;
+  }
+
   > p {
     font-size: 14px;
     color: ${({ theme }) => theme.COLORS.GRAY_100};
   }
 
-  > a {
-    margin-top: 124px;
-    color: ${({ theme }) => theme.COLORS.ORANGE};
+  .create {
+    display: flex;
+    color: ${({ theme }) => theme.COLORS.PINK};
+    margin: 0 08rem;
+    align-items: center;
+    gap: .8rem;
+
+    a {
+
+      justify-content: center;
+      align-items: center;
+
+      color: ${({ theme }) => theme.COLORS.PINK};
+    }
+  }
+
+  button {
+    margin: 2.4rem 0;
   }
 `
 
